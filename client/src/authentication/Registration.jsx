@@ -12,8 +12,9 @@ class Registration extends Component {
         e.preventDefault();
         axios.post('/api/v1/auth', {email: this.state.email, password: this.state.password, password_confirmation: this.state.password_confirmation})
             .then(function(res) {
-                const {token} = res.headers;
-                localStorage.setItem('token', token);
+                window.localStorage.setItem('access-token', res.headers['access-token']);
+                window.localStorage.setItem('client', res.headers['client']);
+                window.localStorage.setItem('uid', res.headers['uid']);
                 window.location.reload(false);
                 //console.log(res.headers);
             })
