@@ -38,9 +38,10 @@
 
 - $ git init
 - $ git add .
-- $ git commit -m "ready for first push to heroku"
+- $ git commit -m "commit changes before deployment"
 - $ git push heroku master
 - $ heroku run rake db:migrate
+- --> visit your deployed app :)
 
 
 
