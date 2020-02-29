@@ -96,7 +96,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
     pg (1.2.2)
-    puma (3.12.2)
+    puma (3.12.3)
     rack (2.1.2)
     rack-cors (1.1.1)
       rack (>= 2.0.0)
@@ -166,7 +166,7 @@ DEPENDENCIES
   devise_token_auth
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
-  puma (~> 3.11)
+  puma (~> 3.12)
   rack-cors
   rails (~> 5.2.4, >= 5.2.4.1)
   spring
