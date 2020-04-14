@@ -1,7 +1,7 @@
 # README
 
 # Rails - React - devise_token_auth - template
-- A nice starting point for your next app, preconfigured template with devise_token_auth user accounts, deployment configs, and various other boilerplate pre setup.  MIT License.
+- A nice starting point for your next app, preconfigured starter app with devise_token_auth setup for user accounts, deployment configuration for heroku, and various other boilerplate.  MIT License.
 - link to demo heroku app: https://calm-citadel-54256.herokuapp.com/ 
 # About
 
