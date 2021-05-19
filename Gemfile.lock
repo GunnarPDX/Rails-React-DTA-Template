@@ -86,7 +86,9 @@ GEM
     marcel (0.3.3)
       mimemagic (~> 0.3.2)
     method_source (0.9.2)
-    mimemagic (0.3.4)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_mime (1.0.2)
     mini_portile2 (2.5.0)
     minitest (5.14.0)
@@ -97,7 +99,8 @@ GEM
       racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.2.2)
-    puma (3.12.6)
+    puma (4.3.8)
+      nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
     rack-cors (1.1.1)
@@ -168,7 +171,7 @@ DEPENDENCIES
   devise_token_auth
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
-  puma (~> 3.12)
+  puma (~> 4.3)
   rack-cors
   rails (~> 5.2.4, >= 5.2.4.1)
   spring
